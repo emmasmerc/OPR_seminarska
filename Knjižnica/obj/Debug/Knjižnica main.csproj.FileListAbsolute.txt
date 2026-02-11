@@ -1,0 +1,8 @@
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica main.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica main.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.exe.config
