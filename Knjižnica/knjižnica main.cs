@@ -117,6 +117,40 @@ namespace Knjižnica
         {
             return $"{Ime} (ID: {ČlanId}, Zamudnina: {Zamudnina:0.00} €)";
         }
+
+        ~Član()
+        {
+            Console.WriteLine($"Član {Ime} (ID: {ČlanId}) je odstranjen iz sistema.");
+        }
+
+        public static bool operator ==(Član a, Član b)
+        {
+            if (ReferenceEquals(a, b))
+                return true;
+
+            if (a is null || b is null)
+                return false;
+
+            return a.ČlanId == b.ČlanId;
+        }
+
+        public static bool operator !=(Član a, Član b)
+        {
+            return !(a == b);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Član other)
+                return this == other;
+
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return ČlanId.GetHashCode();
+        }
     }
 
     public class IzposojenoGradivo
