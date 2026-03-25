@@ -30,12 +30,15 @@ namespace Knjižnica
         bool JeIzposojeno {get;}
     }
 
+    public delegate void IzposojaHandler(string msg);
+
     public abstract class IzposodljivoGradivo : Gradivo, IIzposodljivo
     {
         public bool JeIzposojeno {get; private set;}
 
-        protected IzposodljivoGradivo(string naslov, int leto)
-            : base(naslov, leto)
+        public event IzposojaHandler ObIzposoji;
+
+        protected IzposodljivoGradivo(string naslov, int leto) : base(naslov, leto)
         {
             JeIzposojeno = false;
         }
@@ -43,6 +46,7 @@ namespace Knjižnica
         public virtual void Izposodi(Član član)
         {
             JeIzposojeno = true;
+            ObIzposoji?.Invoke($"Gradivo '{Naslov}' je bilo izposojeno.");
         }
 
         public virtual void Vrni()
@@ -55,8 +59,7 @@ namespace Knjižnica
     {
         public string Avtor {get; set;}
 
-        public Knjiga(string naslov, string avtor, int letoIzdaje)
-            : base(naslov, letoIzdaje)
+        public Knjiga(string naslov, string avtor, int letoIzdaje) : base(naslov, letoIzdaje)
         {
             Avtor = avtor;
         }
@@ -65,6 +68,7 @@ namespace Knjižnica
         {
             base.Izposodi(član);
             Console.WriteLine($"Knjiga '{Naslov}' izposojena članu {član.Ime}");
+            član += 1.5m;
         }
 
         public override string ToString()
@@ -77,8 +81,7 @@ namespace Knjižnica
     {
         public int Trajanje {get; set;}
 
-        public DVD(string naslov, int letoIzdaje, int trajanje)
-            : base(naslov, letoIzdaje)
+        public DVD(string naslov, int letoIzdaje, int trajanje) : base(naslov, letoIzdaje)
         {
             Trajanje = trajanje;
         }
@@ -87,11 +90,56 @@ namespace Knjižnica
         {
             base.Izposodi(član);
             Console.WriteLine($"DVD '{Naslov}' izposojen članu {član.Ime}");
+            član += 2.0m;
         }
 
         public override string ToString()
         {
             return $"{Naslov} ({LetoIzdaje}) – DVD, {Trajanje} min";
+        }
+    }
+
+    public class Revija : IzposodljivoGradivo
+    {
+        public int Številka { get; set; }
+
+        public Revija(string naslov, int leto, int številka) : base(naslov, leto)
+        {
+            Številka = številka;
+        }
+
+        public override void Izposodi(Član član)
+        {
+            base.Izposodi(član);
+            Console.WriteLine($"Revija '{Naslov}' izposojena.");
+            član += 0.5m;
+        }
+
+        public override string ToString()
+        {
+            return $"{Naslov} ({LetoIzdaje}) – Revija št. {Številka}";
+        }
+    }
+
+    public class Članek : IzposodljivoGradivo
+    {
+        public string Tema {get; set;}
+
+        public Članek(string naslov, int leto, string tema) : base(naslov, leto)
+        {
+            Tema = tema;
+        }
+
+        public override void Izposodi(Član član)
+        {
+            base.Izposodi(član);
+            Console.WriteLine($"Članek '{Naslov}' izposojen.");
+            član += 0.2m;
+        }
+
+        public override string ToString()
+        {
+            return $"{Naslov} ({LetoIzdaje}) – Tema: {Tema}";
         }
     }
 
@@ -111,6 +159,19 @@ namespace Knjižnica
             Ime = ime;
             Zamudnina = 0m;
             ČlanId = ++skupnoČlanov;
+        }
+
+        public static Član operator +(Član c, decimal znesek)
+        {
+            c.Zamudnina += znesek;
+            return c;
+        }
+
+        public static Član operator -(Član c, decimal znesek)
+        {
+            c.Zamudnina -= znesek;
+            if (c.Zamudnina < 0) c.Zamudnina = 0;
+            return c;
         }
 
         public override string ToString()
@@ -205,9 +266,11 @@ namespace Knjižnica
                 Console.WriteLine("1. Dodaj člana");
                 Console.WriteLine("2. Dodaj knjigo");
                 Console.WriteLine("3. Dodaj DVD");
-                Console.WriteLine("4. Prikaži gradiva");
-                Console.WriteLine("5. Prikaži člane");
-                Console.WriteLine("6. Izposodi gradivo");
+                Console.WriteLine("4. Dodaj revijo");
+                Console.WriteLine("5. Dodaj članek");
+                Console.WriteLine("6. Prikaži gradiva");
+                Console.WriteLine("7. Prikaži člane");
+                Console.WriteLine("8. Izposodi gradivo");
                 Console.WriteLine("0. Izhod");
                 Console.Write("\nIzbira: ");
 
@@ -216,9 +279,11 @@ namespace Knjižnica
                     case "1": DodajČlana(); break;
                     case "2": DodajKnjigo(); break;
                     case "3": DodajDVD(); break;
-                    case "4": PrikažiGradiva(); break;
-                    case "5": PrikažiČlane(); break;
-                    case "6": IzposodiGradivo(); break;
+                    case "4": DodajRevijo(); break;
+                    case "5": DodajČlanek(); break;
+                    case "6": PrikažiGradiva(); break;
+                    case "7": PrikažiČlane(); break;
+                    case "8": IzposodiGradivo(); break;
                     case "0": return;
                     default:
                         Console.WriteLine("Napačna izbira.");
@@ -226,6 +291,11 @@ namespace Knjižnica
                         break;
                 }
             }
+        }
+
+        static void IzpisDogodka(string msg)
+        {
+            Console.WriteLine("DOGODEK: " + msg);
         }
 
         static void DodajČlana()
@@ -265,6 +335,34 @@ namespace Knjižnica
             Console.ReadKey();
         }
 
+        static void DodajRevijo()
+        {
+            Console.Write("Naslov: ");
+            string naslov = Console.ReadLine();
+            Console.Write("Leto: ");
+            int leto = int.Parse(Console.ReadLine());
+            Console.Write("Številka: ");
+            int št = int.Parse(Console.ReadLine());
+
+            sistem.Dodaj(new Revija(naslov, leto, št));
+            Console.WriteLine("Revija dodana.");
+            Console.ReadKey();
+        }
+
+        static void DodajČlanek()
+        {
+            Console.Write("Naslov: ");
+            string naslov = Console.ReadLine();
+            Console.Write("Leto: ");
+            int leto = int.Parse(Console.ReadLine());
+            Console.Write("Tema: ");
+            string tema = Console.ReadLine();
+
+            sistem.Dodaj(new Članek(naslov, leto, tema));
+            Console.WriteLine("Članek dodan.");
+            Console.ReadKey();
+        }
+
         static void PrikažiGradiva()
         {
             Console.WriteLine("\nGradiva:");
@@ -301,6 +399,11 @@ namespace Knjižnica
             PrikažiGradiva();
             Console.Write("Izberi gradivo: ");
             int g = int.Parse(Console.ReadLine());
+
+            if (sistem[g] is IzposodljivoGradivo ig)
+            {
+                ig.ObIzposoji += IzpisDogodka;
+            }
 
             if (sistem[g] is IIzposodljivo izposodljivo)
             {
