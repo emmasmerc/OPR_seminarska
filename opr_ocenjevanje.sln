@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36717.8 d17.14
+VisualStudioVersion = 17.14.36717.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjižnica main", "Knjižnica\Knjižnica main.csproj", "{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryKnjiznica", "LibraryKnjiznica\LibraryKnjiznica.csproj", "{FEBCA342-1C13-4EC0-88D0-7B2254DD9BD2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knjižnica", "..\opr_ocenjevanje_win_forms\knjižnica\knjižnica.csproj", "{0D24D722-F48C-4EF9-B798-31C2954D915C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnjižnicaMainLibrary", "KnjižnicaMainLibrary\KnjižnicaMainLibrary.csproj", "{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,10 @@ Global
 		{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEBCA342-1C13-4EC0-88D0-7B2254DD9BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEBCA342-1C13-4EC0-88D0-7B2254DD9BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEBCA342-1C13-4EC0-88D0-7B2254DD9BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEBCA342-1C13-4EC0-88D0-7B2254DD9BD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D24D722-F48C-4EF9-B798-31C2954D915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D24D722-F48C-4EF9-B798-31C2954D915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D24D722-F48C-4EF9-B798-31C2954D915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D24D722-F48C-4EF9-B798-31C2954D915C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}|Knji\u017Enica\\Knji\u017Enica main.csproj|c:\\users\\asus\\downloads\\opr_ocenjevanje\\knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}|Knji\u017Enica\\Knji\u017Enica main.csproj|solutionrelative:knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}|Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj|c:\\users\\asus\\downloads\\opr_ocenjevanje\\knji\u017Enicamainlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}|Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj|solutionrelative:knji\u017Enicamainlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017EnicaMainLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "Knji\u017EnicaMainLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017EnicaMainLibrary\\Class1.cs",
+              "RelativeToolTip": "Knji\u017EnicaMainLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:07:43.632Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Knji\u017Enica\\knji\u017Enica main.cs",
               "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017Enica\\knji\u017Enica main.cs",
               "RelativeToolTip": "Knji\u017Enica\\knji\u017Enica main.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAowIwBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T16:45:00.958Z",
               "EditorCaption": ""

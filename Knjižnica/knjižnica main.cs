@@ -101,7 +101,7 @@ namespace Knjižnica
 
     public class Revija : IzposodljivoGradivo
     {
-        public int Številka { get; set; }
+        public int Številka {get; set;}
 
         public Revija(string naslov, int leto, int številka) : base(naslov, leto)
         {
