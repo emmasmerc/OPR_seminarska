@@ -1,0 +1,5 @@
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaGUI\knjižnicaGUI\obj\Debug\knjižnicaGUI.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaGUI\knjižnicaGUI\obj\Debug\knjižnicaGUI.Form1.resources
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaGUI\knjižnicaGUI\obj\Debug\knjižnicaGUI.Properties.Resources.resources
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaGUI\knjižnicaGUI\obj\Debug\knjižnicaGUI.csproj.GenerateResource.cache
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaGUI\knjižnicaGUI\obj\Debug\knjižnicaGUI.csproj.CoreCompileInputs.cache
