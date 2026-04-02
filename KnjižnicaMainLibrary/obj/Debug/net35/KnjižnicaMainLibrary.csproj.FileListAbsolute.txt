@@ -1,6 +1,0 @@
-C:\Users\Asus\Downloads\opr_ocenjevanje\KnjižnicaMainLibrary\obj\Debug\net35\KnjižnicaMainLibrary.csproj.AssemblyReference.cache
-C:\Users\Asus\Downloads\opr_ocenjevanje\KnjižnicaMainLibrary\obj\Debug\net35\KnjižnicaMainLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Asus\Downloads\opr_ocenjevanje\KnjižnicaMainLibrary\obj\Debug\net35\KnjižnicaMainLibrary.AssemblyInfoInputs.cache
-C:\Users\Asus\Downloads\opr_ocenjevanje\KnjižnicaMainLibrary\obj\Debug\net35\KnjižnicaMainLibrary.AssemblyInfo.cs
-C:\Users\Asus\Downloads\opr_ocenjevanje\KnjižnicaMainLibrary\obj\Debug\net35\KnjižnicaMainLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Downloads\opr_ocenjevanje\KnjižnicaMainLibrary\obj\Debug\net35\KnjižnicaMainLibrary.sourcelink.json

@@ -1,18 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\",
+  "WorkspaceRootPath": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36A16BA5-DD65-42B6-B251-CCA5C8D0C07D}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36A16BA5-DD65-42B6-B251-CCA5C8D0C07D}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|solutionrelative:knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A43D39FE-6AF9-448E-9554-030DB0014CE3}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|c:\\users\\emma.smerc.20655\\downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017Enicagui\\knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43D39FE-6AF9-448E-9554-030DB0014CE3}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|solutionrelative:knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A16BA5-DD65-42B6-B251-CCA5C8D0C07D}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A16BA5-DD65-42B6-B251-CCA5C8D0C07D}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|solutionrelative:knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2C69793-364C-9E61-78B6-3D8336B6A8B4}|..\\knji\u017EnicaLibrary\\knji\u017EnicaLibrary.csproj|c:\\users\\emma.smerc.20655\\downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017Enicalibrary\\knji\u017Enica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A16BA5-DD65-42B6-B251-CCA5C8D0C07D}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017Enicagui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A16BA5-DD65-42B6-B251-CCA5C8D0C07D}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|solutionrelative:knji\u017Enicagui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A43D39FE-6AF9-448E-9554-030DB0014CE3}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|c:\\users\\emma.smerc.20655\\downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017Enicagui\\knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A43D39FE-6AF9-448E-9554-030DB0014CE3}|knji\u017EnicaGUI\\knji\u017EnicaGUI.csproj|solutionrelative:knji\u017Enicagui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +26,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs",
-              "RelativeDocumentMoniker": "knji\u017EnicaGUI\\Form1.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs*",
-              "RelativeToolTip": "knji\u017EnicaGUI\\Form1.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "Title": "knji\u017Enica.cs",
+              "DocumentMoniker": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "RelativeDocumentMoniker": "..\\knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "ToolTip": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "RelativeToolTip": "..\\knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "ViewState": "AgIAAGABAAAAAAAAAAAwwGUBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:47:59.988Z",
+              "WhenOpened": "2026-04-02T06:49:03.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Program.cs",
-              "RelativeDocumentMoniker": "knji\u017EnicaGUI\\Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Program.cs",
-              "RelativeToolTip": "knji\u017EnicaGUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs",
+              "RelativeDocumentMoniker": "knji\u017EnicaGUI\\Form1.cs",
+              "ToolTip": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs [Design]",
+              "RelativeToolTip": "knji\u017EnicaGUI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:00:56.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T06:02:12.444Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs",
               "RelativeDocumentMoniker": "knji\u017EnicaGUI\\Form1.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs [Design]*",
-              "RelativeToolTip": "knji\u017EnicaGUI\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaGUI\\knji\u017EnicaGUI\\Form1.cs",
+              "RelativeToolTip": "knji\u017EnicaGUI\\Form1.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwI8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:59:51.416Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-02T05:59:38.782Z",
+              "EditorCaption": ""
             }
           ]
         }

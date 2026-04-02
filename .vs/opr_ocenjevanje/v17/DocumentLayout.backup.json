@@ -1,17 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\",
+  "WorkspaceRootPath": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}|Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj|c:\\users\\asus\\downloads\\opr_ocenjevanje\\knji\u017Enicamainlibrary\\knji\u017Enicamainlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}|Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj|solutionrelative:knji\u017Enicamainlibrary\\knji\u017Enicamainlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E13BC327-B048-459E-B5D8-C28C38FAB8E9}|knji\u017EnicaLibrary\\knji\u017EnicaLibrary.csproj|c:\\users\\emma.smerc.20655\\downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017Enicalibrary\\knji\u017Enica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13BC327-B048-459E-B5D8-C28C38FAB8E9}|knji\u017EnicaLibrary\\knji\u017EnicaLibrary.csproj|solutionrelative:knji\u017Enicalibrary\\knji\u017Enica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}|Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj|c:\\users\\asus\\downloads\\opr_ocenjevanje\\knji\u017Enicamainlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D98241B-79B4-48BF-9C01-4E7DE0ADD602}|Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj|solutionrelative:knji\u017Enicamainlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}|Knji\u017Enica\\Knji\u017Enica main.csproj|C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}|Knji\u017Enica\\Knji\u017Enica main.csproj|c:\\users\\emma.smerc.20655\\downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0889E2F7-DDE5-43CC-86D7-2363BE47DDCA}|Knji\u017Enica\\Knji\u017Enica main.csproj|solutionrelative:knji\u017Enica\\knji\u017Enica main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,40 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Knji\u017EnicaMainLibrary",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj",
-              "RelativeDocumentMoniker": "Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj",
-              "RelativeToolTip": "Knji\u017EnicaMainLibrary\\Knji\u017EnicaMainLibrary.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-01T18:58:43.097Z",
+              "Title": "knji\u017Enica.cs",
+              "DocumentMoniker": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "RelativeDocumentMoniker": "knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "ToolTip": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "RelativeToolTip": "knji\u017EnicaLibrary\\knji\u017Enica.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAqwJoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T06:15:52.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017EnicaMainLibrary\\Class1.cs",
-              "RelativeDocumentMoniker": "Knji\u017EnicaMainLibrary\\Class1.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017EnicaMainLibrary\\Class1.cs",
-              "RelativeToolTip": "Knji\u017EnicaMainLibrary\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T07:07:43.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "knji\u017Enica main.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017Enica\\knji\u017Enica main.cs",
+              "DocumentMoniker": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\Knji\u017Enica\\knji\u017Enica main.cs",
               "RelativeDocumentMoniker": "Knji\u017Enica\\knji\u017Enica main.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\opr_ocenjevanje\\Knji\u017Enica\\knji\u017Enica main.cs",
+              "ToolTip": "C:\\Users\\emma.smerc.20655\\Downloads\\opr_ocenjevanje_\u0161merc\\opr_ocenjevanje\\Knji\u017Enica\\knji\u017Enica main.cs",
               "RelativeToolTip": "Knji\u017Enica\\knji\u017Enica main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:45:00.958Z"
+              "WhenOpened": "2026-04-02T06:15:10.742Z",
+              "EditorCaption": ""
             }
           ]
         }

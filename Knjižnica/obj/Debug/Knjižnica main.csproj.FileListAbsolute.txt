@@ -6,3 +6,10 @@ C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica main.csp
 C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.exe
 C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.pdb
 C:\Users\Asus\Downloads\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.exe.config
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica main.csproj.AssemblyReference.cache
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica main.csproj.CoreCompileInputs.cache
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\emma.smerc.20655\Downloads\opr_ocenjevanje_šmerc\opr_ocenjevanje\Knjižnica\obj\Debug\Knjižnica.pdb
