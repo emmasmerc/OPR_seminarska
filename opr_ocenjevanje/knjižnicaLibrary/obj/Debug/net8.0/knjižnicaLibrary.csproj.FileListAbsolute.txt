@@ -1,0 +1,12 @@
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\bin\Debug\net8.0\knjižnicaLibrary.deps.json
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\bin\Debug\net8.0\knjižnicaLibrary.dll
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\bin\Debug\net8.0\knjižnicaLibrary.pdb
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.AssemblyInfo.cs
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.sourcelink.json
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.dll
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\refint\knjižnicaLibrary.dll
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\knjižnicaLibrary.pdb
+C:\Users\Asus\Downloads\opr_ocenjevanje\knjižnicaLibrary\obj\Debug\net8.0\ref\knjižnicaLibrary.dll
